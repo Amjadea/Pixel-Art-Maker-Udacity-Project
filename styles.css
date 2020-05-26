@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background: linear-gradient(0deg, rgba(176,224,230,1) 0%, rgba(0,0,0,1) 100%) fixed;
+    Width: 100%
+}
+
+h1 {
+    font-family: cursive;
+    background: linear-gradient(purple , pink , powderblue , gold);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-emphasis-color: yellow;
+    font-size: 90px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    color: pink;
+    font-variant: small-caps;
+}
+
+h2 {
+  color: powderblue;
+  font-variant: small-caps;
+}
+
+h2:last-of-type {
+    color: pink;
+    font-variant: small-caps;
+}
+
+#sizePicker {
+  color: #B4A7D6;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
